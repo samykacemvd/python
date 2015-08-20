@@ -17,6 +17,7 @@ data = response.json();
 # Print the json content
 print (data);
 
+# Print more human readable
 print (json.dumps(data, sort_keys=True, indent=4));
 
 # Get all Gold data
